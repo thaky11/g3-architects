@@ -1,0 +1,210 @@
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 26px;
+    padding-top: 20px;
+    
+    
+}
+.icon-1{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.icon-2{
+     display: flex;
+      gap: 20px;
+}
+.caption{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.caption h1{
+    font-family: 'Work Sans';
+    font-size: 40px;
+    width: 530px;
+    margin-left: 380px;
+    
+  
+    
+}
+.caption p{
+    font-family: 'Work Sans' ;
+    font-size: 15px ;
+    width: 580px;
+    margin-left: 380px;
+}
+.caption button{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:  #FFFFFF;
+    background-color: orangered;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.caption img{
+    width: 80%;
+    margin-bottom: 4rem;
+    
+}
+
+/*second part*/
+.second-row{
+    display: flex;
+    margin-bottom: 10rem;
+
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 600px;
+    width: 177px;
+    height: 117px;
+    margin-left: 120px;
+  
+    
+}
+
+.info{
+    margin-top: 300px;
+}
+
+.info h2{
+    font-family: 'Work Sans';
+    font-size: 30px;
+    width: 250px;
+
+    
+}
+.info p{
+    font-family: 'Work Sans' ;
+    font-size: 15px ;
+    width: 350px;
+}
+.info span{
+    color: darkorange;
+}
+.info button{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color:  #FFFFFF;
+    background-color: orangered;
+   
+
+}
+.third-row{
+    margin-top: 250px;
+  
+    
+}
+.heading{
+    margin-left: 150px;
+
+   
+}
+.blog{
+    display: flex;
+    
+}
+.para{
+    margin-bottom: 200px;
+    margin-left: 150px;
+}
+.para h3{
+    font-family: 'Work Sans';
+    font-size: 20px;
+    
+}
+.para p{
+    font-family: 'Work Sans';
+    font-size: 15px ;
+    width: 350px;
+    border:1px solid white;
+   
+    
+}
+.archi img{
+   width: 500px;
+    height: 700px;
+    margin-left: 200px;
+   
+
+}
+.archi button{
+    width: 170px;
+height: 100px;
+background-color: darkorange;
+color: #FFFFFF;
+font-size: 30px;
+margin-left: 100px;
+
+}
+.lorem p{
+    font-family: 'Work Sans';
+    font-size: 15px ;
+    margin-bottom: 100px;
+    width: 350px;
+    margin-left: 150px;
+}
+.lorem h1{
+    font-family: 'Work Sans';
+    font-size: 28px ;
+    margin-left: 150px;
+}
+
+.customer, .sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 10px;
+    border:1px solid  #FF900E;
+    margin-bottom: 100px;
+}
+.company{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.company h2{
+    font-family: 'Work Sans';
+    font-size: 28px ;
+}
+.sponsors{
+    margin-bottom: 100px;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: bisque;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 1px 0px;
+    margin-bottom: 80px;
+}
+/*media queries*/
+@media only screen and (max-width:688px) {
+    .nav-section{
+        
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .second-row{
+      flex-direction: column;
+      
+    }
+   .info{
+    flex-direction: row;
+    margin-bottom: 200px;
+   }
+  
+
+}
+
